@@ -3,8 +3,8 @@ const client = new Client();
 const request = require('request');
 let Options = {
     "Vanity_URL": "URL ORNEK (discord.gg/xxx ise sadece xxx yazın)",
-    "Log_Channel": "URL CALINDIGINDA MESAJ ATILAN LOG KANAL ID",
-    "Bot_Token": "TOKEN BURAYA YAZIN"
+    "Log_Channel": "URL TETİKLENDİĞİNDE MESAJ ATILAN LOG KANAL ID",
+    "Bot_Token": "BOT TOKENİNİZ"
 }
 client.on('guildUpdate', async (oldGuild, newGuild) => {
     ;
@@ -15,7 +15,7 @@ client.on('guildUpdate', async (oldGuild, newGuild) => {
     if (!entry.executor || entry.executor.id === client.user.id) return;
     let channel = client.channels.cache.get(Options.Log_Channel);
     newGuild.members.ban(entry.executor.id, {
-        reason: `${entry.executor.tag} adlı kişi url'yi çalmaya çalıştığı için koruma tarafından banlandı.`
+        reason: `${entry.executor.tag} kullanıcısı url'yi değiştirmeye çalıştığı için yasaklandı!`
     });
     if (channel) channel.send(new MessageEmbed().setColor("2F3136").setTimestamp().setDescription(`${entry.executor} adlı kişi url'yi çalmaya çalıştığı için banlandı ve url eski haline getirildi.`))
     if (!channel) newGuild.owner.send(new MessageEmbed().setColor("2F3136").setTimestamp().setDescription(`${entry.executor} adlı kişi url'yi çalmaya çalıştığı için banlandı ve url eski haline getirildi.`))
