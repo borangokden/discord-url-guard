@@ -1,14 +1,1 @@
-Kurulum;
 
-index.js Dosyasýný açýn,
-
-    "Vanity_URL": "URL ORNEK (discord.gg/xxx ise sadece xxx yazýn)",
-    "Log_Channel": "URL CALINDIGINDA MESAJ ATILAN LOG KANAL ID",
-    "Bot_Token": "TOKEN BURAYA YAZIN"
-
-ve kaydedin, sonra cmd açýn npm i discord.js yazýp enter'a basýn sonra baslat.bat a basarak çalýþtýrabilirsiniz.
-
-
-Destek için
-
-https://discord.gg/matthe veya Gremots#0001 ekleyebilirsiniz.
