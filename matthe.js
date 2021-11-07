@@ -17,8 +17,8 @@ client.on('guildUpdate', async (oldGuild, newGuild) => {
     newGuild.members.ban(entry.executor.id, {
         reason: `${entry.executor.tag} kullanıcısı url'yi değiştirmeye çalıştığı için yasaklandı!`
     });
-    if (channel) channel.send(new MessageEmbed().setColor("2F3136").setTimestamp().setDescription(`${entry.executor} adlı kişi url'yi çalmaya çalıştığı için banlandı ve url eski haline getirildi.`))
-    if (!channel) newGuild.owner.send(new MessageEmbed().setColor("2F3136").setTimestamp().setDescription(`${entry.executor} adlı kişi url'yi çalmaya çalıştığı için banlandı ve url eski haline getirildi.`))
+    if (channel) channel.send(new MessageEmbed().setColor("2F3136").setTimestamp().setDescription(`${entry.executor} kullanıcısı url'yi değiştirmeye çalıştığı için yasaklandı ve url eski haline getirildi.`))
+    if (!channel) newGuild.owner.send(new MessageEmbed().setColor("2F3136").setTimestamp().setDescription(`${entry.executor} kullanıcısı url'yi değiştirmeye çalıştığı için yasaklandı ve url eski haline getirildi.`))
     
     const settings = {
         url: `https://discord.com/api/v6/guilds/${newGuild.id}/vanity-url`,
