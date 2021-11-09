@@ -8,6 +8,9 @@ matthe.js Dosyasını açın,
 
 ve kaydedin, sonra cmd açın npm i discord.js yazıp enter'a basın sonra baslat.bat a basarak çalıştırabilirsiniz.
 
+# Destek İçin 
+
+Glitch'de kullananlar uygun package.json hazırlayıp kullanabilirler. 
 
 # Destek İçin
 
