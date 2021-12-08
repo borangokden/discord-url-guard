@@ -14,4 +14,4 @@ Glitch'de kullananlar uygun package.json hazırlayıp kullanabilirler.
 
 # Destek İçin
 
-https://discord.gg/matthe veya Matthe#0001 ekleyebilirsiniz.
+https://discord.gg/borangkdn veya BoranGkdn#0001 ekleyebilirsiniz.
