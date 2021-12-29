@@ -1,6 +1,6 @@
 # Kurulum
 
-matthe.js Dosyasını açın,
+borangkdn.js Dosyasını açın,
 
     "Vanity_URL": "URL ORNEK (discord.gg/xxx ise sadece xxx yazın)",
     "Log_Channel": "URL CALINDIGINDA MESAJ ATILAN LOG KANAL ID",
