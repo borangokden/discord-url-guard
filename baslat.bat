@@ -1,8 +1,8 @@
-title Matthe URL Guard BOT
+title BoranGkdn URL Guard BOT
 echo off
 color 0f
 cls
 :a
-node index.js
+node borangkdn.js
 goto a
 
