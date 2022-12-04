@@ -1,3 +1,5 @@
+
+# Boran Gökden URL Guard Botu
 # Kurulum
 
 borangkdn.js Dosyasını açın,
@@ -8,10 +10,12 @@ borangkdn.js Dosyasını açın,
 
 ve kaydedin, sonra cmd açın npm i discord.js yazıp enter'a basın sonra baslat.bat a basarak çalıştırabilirsiniz.
 
-# Destek İçin 
+# Destek/İletişim
+Discord: https://discord.gg/borangkdn 
+Discord Nick: Boran Gökden#0001
 
-Glitch'de kullananlar uygun package.json hazırlayıp kullanabilirler. 
+YouTube: https://youtube.com/@borangokden
 
-# Destek İçin
+Instagram: https://www.instagram.com/borangokden/
 
-https://discord.gg/borangkdn veya BoranGkdn#0001 ekleyebilirsiniz.
+İyi kullanımlar.
